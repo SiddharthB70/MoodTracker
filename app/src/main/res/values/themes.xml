@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MoodTracker" parent="Theme.Material3.DayNight.NoActionBar"></style>
+    <style name="Theme.MoodTracker" parent="Base.Theme.MoodTracker" />
+    <style name="Base.AppTheme" parent="Theme.Material3.DayNight.NoActionBar"></style>
+
+    <style name="MoodTrackerTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">@font/roboto_mono</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextCenterTheme">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="TextLeftTheme">
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="TimePickerDialog" parent="Theme.Material3.Dark.Dialog.Alert">
+
+    </style>
+</resources>
